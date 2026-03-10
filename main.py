@@ -9,7 +9,10 @@ def main():
 
       op = sys.argv[1]
       a = float(sys.argv[2])
-      b = float(sys.argv[3])    
+      b = float(sys.argv[3])
+
+def add(a, b):
+      return a + b
 
 
 if __name__ == "__main__":
