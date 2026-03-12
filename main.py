@@ -22,7 +22,7 @@ def subtract(a, b):
       """Subtract b from a"""
       return a - b
 
-def division(a,b);
+def division(a,b):
     """Divide a by b"""
     if b == 0:
         raise ZeroDivisionError("Division by zero is not allowed")
