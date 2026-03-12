@@ -12,9 +12,6 @@ def main():
       b = float(sys.argv[3])
 
 
-if __name__ == "__main__":
-      main()
-
 def add(a, b):
       return a + b
 
@@ -22,8 +19,11 @@ def subtract(a, b):
       """Subtract b from a"""
       return a - b
 
-def division(a,b);
-    """Divide a by b"""
-    if b == 0:
-        raise ZeroDivisionError("Division by zero is not allowed")
-    return a / b
+def division(a, b):
+      """Divide a by b"""
+      if b == 0:
+            raise ZeroDivisionError("Division by zero is not allowed")
+      return a / b
+
+if __name__ == "__main__":
+      main()
