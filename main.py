@@ -1,7 +1,12 @@
 # Math Magician Main File
 # usage: math operator operand1 operand2
 
+
+
+
+
 def main():
+
       import sys
 
       print("Welcome to Math Magician!")
@@ -12,9 +17,20 @@ def main():
       b = float(sys.argv[3])
 
 
+      mult(a, b)
+
+      
+
+
+
 if __name__ == "__main__":
       main()
 
+
+def mult(a, b):
+      print("mult function called")
+
+      return a * b
 def add(a, b):
       return a + b
 
